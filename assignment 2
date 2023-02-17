@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+int i,even,odd;
+clrscr();
+i=1;
+even=odd=0;
+while(i<=10)
+{
+printf("%d",i);
+if(i%2!=0)
+odd=odd+i;
+else
+even=even+i;
+i++;
+}
+printf("\n evensum=%d\noddsum=%d",even,odd);
+getch();
+}
